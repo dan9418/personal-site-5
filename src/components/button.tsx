@@ -1,8 +1,8 @@
 import React from "react";
-import { buttonModule } from "./button.module.scss"
+import "./button.scss";
 
 const Button: React.FC = ({ children, ...rest }) => {
-    return <button type="button" className={buttonModule} {...rest}>{children}</button>
+    return <button type="button" {...rest}>{children}</button>
 }
 
 export default Button;

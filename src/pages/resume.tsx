@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import Button from '../components/button';
-import { resumeModule } from "./resume.module.scss"
+import "./resume.scss";
 
 const ResumeSubheader = ({ company, date, position, location }) => {
     return (
@@ -14,7 +14,7 @@ const ResumeSubheader = ({ company, date, position, location }) => {
 
 const ResumePage = () => {
     return (
-        <main className={resumeModule}>
+        <main className="resume-page">
             <title>Dan Bednarczyk - Resume</title>
             <h1>
                 Resume

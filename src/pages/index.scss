@@ -1,0 +1,14 @@
+.index-page {
+  text-align: center;
+
+  div {
+    display: flex;
+    gap: 16px;
+
+    img {
+      height: 128px;
+      width: 128px;
+      border-radius: 100%;
+    }
+  }
+}
