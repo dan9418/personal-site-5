@@ -1,5 +1,7 @@
-import * as React from "react";
-import '../styles/styles.scss';
+import { Link } from "gatsby";
+import React from "react";
+import Button from '../components/button';
+import '../styles/_styles.scss';
 
 const IndexPage = () => {
   return (
@@ -9,8 +11,11 @@ const IndexPage = () => {
         Hey there!
       </h1>
       <p>
-        I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community develoment.
+        My name is <b>Dan Bednarczyk</b> and I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community develoment.
       </p>
+      <Link to="/resume">
+        <Button>Technical Resume</Button>
+      </Link>
     </main>
   )
 }
