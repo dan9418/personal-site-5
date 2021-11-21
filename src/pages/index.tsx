@@ -1,11 +1,12 @@
 import { Link } from "gatsby";
 import React from "react";
 import Button from '../components/button';
-import '../styles/_styles.scss';
+import '../styles/global.scss';
+import { indexModule } from './index.module.scss';
 
 const IndexPage = () => {
   return (
-    <main className="home-page">
+    <main className={indexModule}>
       <title>Dan Bednarczyk</title>
       <h1>
         Hey there!

@@ -1,9 +1,9 @@
-@use '../styles/styles' as styles;
+@use '../styles/theme' as theme;
 
-button {
+.button-module {
     padding: 4px 8px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    background-color: styles.$medium;
+    background-color: theme.$medium;
 }
