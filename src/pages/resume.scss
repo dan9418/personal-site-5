@@ -1,45 +1,39 @@
 .resume-page {
-  table {
-    width: 100%;
-    margin-top: 16px;
-    table-layout: fixed;
+  section {
+    margin-bottom: 16px;
   }
 
-  table.skills ul {
-    padding: 0;
+  h2 {
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid #555;
+    margin: 0 0 8px 0;
   }
 
-  th {
-    text-align: left;
-    width: 25%;
+  .skills {
+    text-align: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        margin: 2px 0;
+      }
+    }
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 512px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    h3 {
+      margin: 0;
+    }
   }
-
-  td {
-    vertical-align: top;
-    padding: 4px;
-  }
-
-  .resume ul {}
-
-  .resume li {
-    list-style-type: square;
-    margin: 4px 0 4px 16px;
-    padding: 0;
-  }
-
-  .resume-subheader h3 {
-    padding: 0;
-    border-bottom: none;
-    padding-bottom: 4px;
-    margin-bottom: 4px;
-  }
-
-  .resume-subheader h4 {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 4px;
-    margin-bottom: 8px;
-    border-bottom: none;
-  }
-
 }
