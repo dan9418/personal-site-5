@@ -36,4 +36,33 @@
       margin: 0;
     }
   }
+
+  .experience {
+    li {
+      list-style-type: square;
+      margin: 4px 0 4px 16px;
+      padding: 0;
+    }
+  }
+
+  .resume-subheader {
+    h3,
+    h4 {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin: 0;
+    }
+
+    h4 {
+      margin-top: 4px;
+    }
+
+    .location,
+    .date {
+      color: #555;
+      font-weight: normal;
+      font-size: 90%;
+    }
+  }
 }

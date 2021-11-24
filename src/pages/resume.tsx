@@ -6,8 +6,14 @@ import "./resume.scss";
 const ResumeSubheader = ({ company, date, position, location }) => {
     return (
         <div className="resume-subheader">
-            <span>{company}</span>
-            <span>{position}</span>
+            <h3>
+                <span className="company">{company}</span>
+                <span className="date">{date}</span>
+            </h3>
+            <h4>
+                <span className="position">{position}</span>
+                <span className="location">{location}</span>
+            </h4>
         </div>
     );
 }
@@ -76,13 +82,13 @@ const ResumePage = () => {
                     </div>
                 </section>
 
-                <section>
+                <section className="experience">
                     <h2>Work Experience</h2>
 
                     <ResumeSubheader
                         company='CBS Sports Digital'
                         position='Frontend Engineer'
-                        date='December 2019 - Present'
+                        date='Dec 2019 - Present'
                         location='El Dorado Hills, CA'
                     />
 
@@ -97,7 +103,7 @@ const ResumePage = () => {
                     <ResumeSubheader
                         company='Bentley Systems'
                         position='Associate Software Engineer'
-                        date='May 2016 - July 2019'
+                        date='May 2016 - Jul 2019'
                         location='Pittsburgh, PA + Vilnius, LT'
                     />
 
@@ -112,7 +118,7 @@ const ResumePage = () => {
                     <ResumeSubheader
                         company='The Bank of New York Mellon'
                         position='Software Engineer Intern'
-                        date='May 2015 – August 2015'
+                        date='May 2015 - Aug 2015'
                         location='Pittsburgh, PA'
                     />
 
@@ -125,7 +131,7 @@ const ResumePage = () => {
                     <ResumeSubheader
                         company='University of Pittsburgh, Residence Life'
                         position='Resident Assistant'
-                        date='August 2014 - December 2015'
+                        date='Aug 2014 - Dec 2015'
                         location='Pittsburgh, PA'
                     />
 
@@ -142,7 +148,7 @@ const ResumePage = () => {
                     <ResumeSubheader
                         company='University of Pittsburgh, Swanson School of Engineering'
                         position='BS, Computer Engineering'
-                        date='April 2017'
+                        date='Apr 2017'
                         location='Pittsburgh, PA'
                     />
 
