@@ -4,9 +4,11 @@ body {
   font: 100% theme.$font-stack;
   color: theme.$dark;
   background-color: theme.$light;
+  border-color: theme.$link;
+  margin: 0;
+  padding: 0;
 }
 
-main {
-  max-width: 1024px;
-  margin: auto;
+a {
+  color: theme.$link;
 }

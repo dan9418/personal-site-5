@@ -1,0 +1,48 @@
+@use "../../styles/theme";
+
+.header {
+    padding: 8px;
+    background-color: theme.$link;
+    color: white;
+
+    .width-cap {
+        width: 100%;
+        max-width: 1024px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 64px;
+                width: 64px;
+                border-radius: 100%;
+            }
+            .details {
+                margin-left: 8px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-around;
+                .name {
+                    font-weight: bold;
+                    font-size: 110%;
+                }
+                .title,
+                .city {
+                    font-size: 80%;
+                    margin-top: 2px;
+                }
+            }
+        }
+
+        .right {
+        }
+    }
+}

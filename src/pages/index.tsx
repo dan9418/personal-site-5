@@ -4,25 +4,31 @@ import Button from '../components/button';
 import '../styles/global.scss';
 import './index.scss';
 import headshot from "../assets/headshot.jpg";
+import Page from "../components/page/page";
 
 const IndexPage = () => {
   return (
-    <main className="index-page">
-      <title>Dan Bednarczyk</title>
-      <h1>
-        Hey there!
-      </h1>
-      <div className="intro">
-        <img src={headshot} alt="Dan Bednarczyk Photo" />
-        <p>
-          My name is <b>Dan Bednarczyk</b> and I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community develoment.
-        </p>
-      </div>
+    <Page pageName="index" pageTitle="Home">
+      <div className="content">
+        <h1>
+          Hi, I'm <b>Dan Bednarczyk</b>!
+        </h1>
+        <div className="intro">
+          <img src={headshot} alt="Dan Bednarczyk Photo" />
+          <p>
+            I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community develoment.
+          </p>
+        </div>
 
-      <Link to="/resume">
-        <Button>Technical Resume</Button>
-      </Link>
-    </main>
+        <div className="buttons">
+
+          <Link to="/resume">
+            <Button>Technical Resume</Button>
+          </Link>
+
+        </div>
+      </div>
+    </Page>
   )
 }
 

@@ -1,14 +1,47 @@
-.index-page {
-  text-align: center;
+@use "../styles/theme";
 
-  div {
+.page.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  h1 {
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .intro {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 
     img {
       height: 128px;
       width: 128px;
       border-radius: 100%;
+    }
+
+    p {
+      max-width: 512px;
+      font-size: 120%;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+    padding: 128px 16px 32px;
+    button {
+      padding: 16px 32px;
+      background-color: theme.$link;
+      color: white;
+      font-size: 140%;
+      font-weight: bold;
     }
   }
 }
