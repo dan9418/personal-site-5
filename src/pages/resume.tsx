@@ -20,11 +20,6 @@ const ResumeSubheader = ({ company, date, position, location }) => {
 const ResumePage = () => {
     return (
         <Page pageName="resume" pageTitle="Resume">
-
-            <h1>
-                Resume
-            </h1>
-
             <section>
                 <h2>Technical Skills</h2>
 
