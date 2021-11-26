@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import headshot from "../../assets/headshot.jpg";
 import Button from '../button';
+import Icon from "../icon/icon";
 import "./header.scss";
 
 const Header: React.FC = ({ }) => {
@@ -18,11 +19,19 @@ const Header: React.FC = ({ }) => {
                 </div>
 
                 <div className="right">
-                    <Link to="/">
-                        <Button>Home</Button>
-                    </Link>
+                    <ul className="icon-list">
+                        <li>
+                            <a href="">
+                                <Icon id="linkedin" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <Icon id="github" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
         </nav>
     );
