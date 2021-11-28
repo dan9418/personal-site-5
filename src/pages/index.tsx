@@ -24,7 +24,7 @@ const IndexPage = () => {
           <Link to="/resume">
             <Button>Professional Resume</Button>
           </Link>
-          <Link to="/porfolio">
+          <Link to="/portfolio">
             <Button>Personal Portfolio</Button>
           </Link>
         </div>
