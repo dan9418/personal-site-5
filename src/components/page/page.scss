@@ -3,65 +3,9 @@
 main {
     max-width: 1024px;
     margin: auto;
+    padding-top: 64px;
 }
 
-.breadcrumb-list {
-    display: flex;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    max-width: 1024px;
-    margin: 8px auto 32px;
-    color: #555;
-
-    li {
-        margin: 0;
-        padding: 0;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        h1 {
-            appearance: none;
-            margin: 0;
-            padding: 0;
-            font-size: 32px;
-            font-weight: bold;
-        }
-
-        & > svg {
-            height: 16px;
-            fill: #aaa;
-
-            * {
-                fill: #aaa;
-            }
-        }
-
-        a {
-            height: 48px;
-            width: 48px;
-            padding: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            border-radius: 8px;
-
-            &:hover {
-                background: rgba(0, 0, 0, 0.1);
-            }
-
-            svg {
-                height: 32px;
-            }
-
-            svg,
-            svg * {
-                fill: #555;
-            }
-        }
-    }
+h1 {
+    text-align: center;
 }
