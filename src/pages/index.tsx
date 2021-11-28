@@ -1,10 +1,10 @@
 import { Link } from "gatsby";
 import React from "react";
+import headshot from "../assets/headshot.jpg";
 import Button from '../components/button';
+import Page from "../components/page/page";
 import '../styles/global.scss';
 import './index.scss';
-import headshot from "../assets/headshot.jpg";
-import Page from "../components/page/page";
 
 const IndexPage = () => {
   return (
@@ -21,11 +21,12 @@ const IndexPage = () => {
         </div>
 
         <div className="buttons">
-
           <Link to="/resume">
-            <Button>Technical Resume</Button>
+            <Button>Professional Resume</Button>
           </Link>
-
+          <Link to="/porfolio">
+            <Button>Personal Portfolio</Button>
+          </Link>
         </div>
       </div>
     </Page>
