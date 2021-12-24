@@ -1,10 +1,9 @@
 import React from "react";
-import Page from "../components/page/page";
 import "./portfolio.scss";
 
 const ResumePage = () => {
     return (
-        <Page pageName="portfolio" pageTitle="Portfolio">
+        <>
             <section style={{ padding: '16px' }} >
                 <h2>Sorry!</h2>
                 <p>This page is still under construction.</p>
@@ -40,7 +39,7 @@ const ResumePage = () => {
                 <h2>Tattoos</h2>*/}
             </section>
 
-        </Page >
+        </ >
     )
 }
 

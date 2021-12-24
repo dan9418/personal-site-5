@@ -1,5 +1,4 @@
 import React from "react";
-import Page from "../components/page/page";
 import "./resume.scss";
 
 const ResumeSubheader = ({ company, date, position, location }) => {
@@ -19,7 +18,7 @@ const ResumeSubheader = ({ company, date, position, location }) => {
 
 const ResumePage = () => {
     return (
-        <Page pageName="resume" pageTitle="Resume">
+        <>
             <section>
                 <h2>Technical Skills</h2>
 
@@ -177,7 +176,7 @@ const ResumePage = () => {
 
             </section>
 
-        </Page>
+        </>
     )
 }
 

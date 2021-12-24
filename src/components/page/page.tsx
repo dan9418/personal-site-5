@@ -1,17 +1,15 @@
 
 import React from "react";
 import Header from '../header/header';
-import SubMenu from '../submenu/subMenu';
 import "./page.scss";
 
-const Page: React.FC<any> = ({ pageName, pageTitle, children }) => {
+const Page: React.FC<any> = ({ pageName, pageTitle, isHeaderVisible, children }) => {
     return (
         <>
-            <title>Dan Bednarczyk{pageTitle ? ` - ${pageTitle}` : ''}</title>
+            <title>{`Dan Bednarczyk - ${pageTitle}`}</title>
             <main className={`page ${pageName}`}>
-                {pageName !== 'index' && <>
+                {isHeaderVisible && <>
                     <Header pageName={pageName} />
-                    {pageName !== 'resume' && false && <SubMenu />}
                     <h1>
                         {pageTitle}
                     </h1>
