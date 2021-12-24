@@ -12,8 +12,8 @@ const ResumePage = () => {
                 <h3>Music</h3>
                 <ul>
                     <li><a target="_blank" href="https://open.spotify.com/artist/04pnwkbpBItHPWSuL5UAYY?si=VBizxZcESVCOIhPmChdUuQ">Spotify</a></li>
-                    <li><a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">Apple Music</a></li>
-                    <li><a target="_blank" href="https://pineapple-dan.bandcamp.com/">Bandcamp</a></li>
+                    {/*<li><a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">Apple Music</a></li>*/}
+                    <li><a target="_blank" href="https://danbednarczyk.bandcamp.com/">Bandcamp</a></li>
                 </ul>
                 <h3>Art</h3>
                 <ul>
@@ -27,7 +27,6 @@ const ResumePage = () => {
 
                 {/*<h2>Play What</h2>
                 <h2>Music</h2>
-                <h3>pineapple_dan</h3>
                 <h3>The Vectors</h3>
                 <h3>Other</h3>
                 <h2>Drawings</h2>

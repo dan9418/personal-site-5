@@ -44,7 +44,7 @@ const Header: React.FC<any> = ({ pageName }) => {
                             </a>
                         </li>*/}
                         <li>
-                            <a target="_blank" href="https://pineapple-dan.bandcamp.com/">
+                            <a target="_blank" href="https://danbednarczyk.bandcamp.com/">
                                 <Icon id="bandcamp" />
                             </a>
                         </li>
