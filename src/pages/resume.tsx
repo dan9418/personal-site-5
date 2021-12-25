@@ -31,6 +31,7 @@ const ResumePage = () => {
                             <li>HTML5</li>
                             <li>CSS3 / SCSS</li>
                             <li>SQL</li>
+                            <li>GraphQL</li>
                             <li>C#</li>
                             <li>Java</li>
                             <li>PHP</li>
@@ -42,8 +43,8 @@ const ResumePage = () => {
                         <ul>
                             <li>React</li>
                             <li>Next</li>
-                            <li>Node</li>
                             <li>Gatsby</li>
+                            <li>Node</li>
                             <li>Angular</li>
                             <li>Android</li>
                         </ul>
@@ -60,12 +61,12 @@ const ResumePage = () => {
                     <div>
                         <h3>Other</h3>
                         <ul>
-                            <li>Git</li>
+                            <li>SEO</li>
                             <li>Fastly</li>
                             <li>REST / HTTP</li>
                             <li>JSON / XML</li>
                             <li>npm / yarn</li>
-                            <li>SEO</li>
+                            <li>Git</li>
                             <li>AWS</li>
                         </ul>
                     </div>
@@ -154,7 +155,7 @@ const ResumePage = () => {
                 <h2>Projects</h2>
 
                 <ul>
-                    <li>Created and published <a href='https://dan9418.github.io/play-what-sample/' target='_blank' rel='noopener noreferrer'>Play What</a>, a React component library for visualizing music theory concepts</li>
+                    <li>Creator of <b>Play What</b> (in alpha), a website and open source framework for exploring music theory concepts</li>
                     <li>Developed an <a href='https://github.com/dan9418/ARDashboard/' target='_blank' rel='noopener noreferrer'>augmented reality dashboard</a> mobile app to recognize and communicate with electrical switchgear (senior design project)</li>
                     <li>Developed an Android app for boolean algebra calculations</li>
                     <li>Assisted in design and construction of several tech-supplemented hydroponic gardening systems</li>

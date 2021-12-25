@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import "./portfolio.scss";
 
@@ -15,12 +16,13 @@ const ResumePage = () => {
                     {/*<li><a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">Apple Music</a></li>*/}
                     <li><a target="_blank" href="https://danbednarczyk.bandcamp.com/">Bandcamp</a></li>
                 </ul>
-                <h3>Art</h3>
+                <h3>Art & Botany</h3>
                 <ul>
                     <li><a target="_blank" href="https://www.instagram.com/pineapple_dan_creates/">Instagram</a></li>
                 </ul>
                 <h3>Software</h3>
                 <ul>
+                    <li><Link to="/resume">Resume</Link></li>
                     <li><a target="_blank" href="https://github.com/dan9418/">GitHub</a></li>
                     <li><a target="_blank" href="https://www.linkedin.com/in/danielbednarczyk/">LinkedIn</a></li>
                 </ul>

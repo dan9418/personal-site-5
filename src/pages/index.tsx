@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import headshot from "../assets/headshot.jpg";
-import Button from '../components/button';
+import Button, { ButtonMode } from '../components/button';
 import '../styles/global.scss';
 import './index.scss';
 
@@ -19,12 +19,8 @@ const IndexPage = () => {
       </div>
 
       <div className="buttons">
-        <Link to="/resume">
-          <Button>Professional Resume</Button>
-        </Link>
-        <Link to="/portfolio">
-          <Button>Personal Portfolio</Button>
-        </Link>
+        <Button to="/resume" mode={ButtonMode.Link}>Professional Resume</Button>
+        <Button to="/portfolio" mode={ButtonMode.Link}>Creative Portfolio</Button>
       </div>
     </div>
   )

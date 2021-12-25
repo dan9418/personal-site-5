@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import headshot from "../../assets/headshot.jpg";
+import Button, { ButtonMode } from "../button";
 import Icon from "../icon/icon";
 import "./header.scss";
 
@@ -53,14 +54,14 @@ const Header: React.FC<any> = ({ pageName }) => {
                     <div className="divider" />
                     <ul className="link-list">
                         <li>
-                            <Link to="/resume" className={pageName === 'resume' ? 'active' : ''}>
+                            <Button to="/resume" isActive={pageName === 'resume'} mode={ButtonMode.White}>
                                 Resume
-                            </Link>
+                            </Button>
                         </li>
                         <li>
-                            <Link to="/portfolio" className={pageName === 'portfolio' ? 'active' : ''}>
+                            <Button to="/portfolio" isActive={pageName === 'portfolio'} mode={ButtonMode.White}>
                                 Portfolio
-                            </Link>
+                            </Button>
                         </li>
                     </ul>
                 </div>
