@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import headshot from "../assets/headshot.jpg";
 import Button, { ButtonMode } from '../components/button';
+import IconList from "../components/icon-list/iconList";
 import '../styles/global.scss';
 import './index.scss';
 
@@ -22,6 +23,7 @@ const IndexPage = () => {
         <Button to="/resume" mode={ButtonMode.Link}>Professional Resume</Button>
         <Button to="/portfolio" mode={ButtonMode.Link}>Creative Portfolio</Button>
       </div>
+      <IconList />
     </div>
   )
 }
