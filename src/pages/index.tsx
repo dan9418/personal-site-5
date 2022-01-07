@@ -16,7 +16,7 @@ const IndexPage = () => {
       <div className="intro">
         <img src={headshot} alt="Dan Bednarczyk Photo" />
         <p>
-          I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community develoment.
+          I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community development.
         </p>
       </div>
 
