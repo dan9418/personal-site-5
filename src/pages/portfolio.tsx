@@ -12,7 +12,7 @@ const ResumePage = () => {
 
                 <h3>Music</h3>
                 <ul>
-                    <li><a target="_blank" href="https://open.spotify.com/artist/04pnwkbpBItHPWSuL5UAYY?si=VBizxZcESVCOIhPmChdUuQ">Spotify</a></li>
+                    <li><a target="_blank" href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ">Spotify</a></li>
                     {/*<li><a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">Apple Music</a></li>*/}
                     <li><a target="_blank" href="https://danbednarczyk.bandcamp.com/">Bandcamp</a></li>
                 </ul>

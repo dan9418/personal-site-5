@@ -21,15 +21,15 @@ const IconList: React.FC<any> = ({ pageName }) => {
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://open.spotify.com/artist/04pnwkbpBItHPWSuL5UAYY?si=VBizxZcESVCOIhPmChdUuQ">
+                <a target="_blank" href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ">
                     <Icon id="spotify" />
                 </a>
             </li>
             {/*<li>
-                            <a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">
-                                <Icon id="apple" />
-                            </a>
-                        </li>*/}
+                <a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">
+                    <Icon id="apple" />
+                </a>
+            </li>*/}
             <li>
                 <a target="_blank" href="https://danbednarczyk.bandcamp.com/">
                     <Icon id="bandcamp" />
