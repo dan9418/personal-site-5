@@ -1,14 +1,17 @@
+import { Link } from "gatsby";
 import React from "react";
 import Icon from "../icon/icon";
 import "./iconLink.scss";
 
-const IconLink: React.FC<any> = ({ href, text, iconId }) => {
-    console.log(iconId, <Icon id={iconId} />);
+const IconLink: React.FC<any> = ({ text, iconId, isBeta, ...rest }) => {
+    const Tag = rest.to ? Link : 'a';
+    const target = rest.to ? undefined : '_blank';
     return (
-        <a className="icon-link" target="_blank" href={href}>
+        <Tag className="icon-link" target={target} {...rest}>
             <Icon id={iconId} />
             {text}
-        </a>
+            {isBeta && <div className="beta">{` [BETA]`}</div>}
+        </Tag>
     );
 }
 

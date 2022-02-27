@@ -11,6 +11,31 @@
     margin-top: 0;
   }
 
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+  }
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
   .intro {
     margin: auto;
     max-width: 768px;
@@ -41,10 +66,11 @@
     flex-direction: column;
 
     .btn {
-      padding: 8px 12px;
+      padding: 8px 16px;
       margin-left: auto;
       font-size: 110%;
       font-weight: bold;
+      letter-spacing: 1px;
 
       svg {
         fill: white;
@@ -69,7 +95,7 @@
   section {
     padding: 0 16px;
     margin-top: 20px;
-    border-top: 1px solid #ccc;
+    //border-top: 1px solid #ccc;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -84,10 +110,6 @@
     font-size: 100%;
     text-align: center;
     grid-column: 1 / span 4;
-    margin: 24px 0 12px;
-  }
-
-  h2 {
-    margin: 0;
+    margin: 32px 0 20px;
   }
 }

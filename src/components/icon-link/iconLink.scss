@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
     svg {
         fill: black;
         height: 16px;
@@ -11,5 +12,18 @@
         * {
             fill: black;
         }
+    }
+
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: theme.$link;
+        color: white;
+    }
+
+    .beta {
+        font-size: 80%;
     }
 }
