@@ -1,6 +1,19 @@
 .page.resume {
+  padding: 64px 16px;
+
   section {
     margin-bottom: 16px;
+    ul {
+      padding-left: 0;
+      @media (min-width: 512px) {
+        padding-left: 16px;
+      }
+      li {
+        list-style-type: square;
+        margin: 4px 0 4px 16px;
+        padding: 0;
+      }
+    }
   }
 
   h2 {
@@ -10,15 +23,11 @@
   }
 
   .skills {
-    text-align: center;
-    ul {
-      margin: 0;
-      padding: 0;
+    @media (min-width: 512px) {
+      text-align: center;
+    }
+    li {
       list-style-type: none;
-
-      li {
-        margin: 2px 0;
-      }
     }
 
     display: grid;
@@ -33,29 +42,28 @@
     }
 
     h3 {
-      margin: 0;
-    }
-  }
-
-  .experience {
-    li {
-      list-style-type: square;
-      margin: 4px 0 4px 16px;
-      padding: 0;
+      margin: 8px 0 4px;
     }
   }
 
   .resume-subheader {
     h3,
     h4 {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
       margin: 0;
+
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 512px) {
+        flex-direction: row;
+        padding-left: 16px;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
     }
 
     h4 {
       margin-top: 4px;
+      margin-left: 8px;
     }
 
     .location,
