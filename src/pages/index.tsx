@@ -1,6 +1,7 @@
 import React from "react";
 import headshot from "../assets/headshot.jpg";
-import Button, { ButtonMode } from '../components/button';
+import Button, { ButtonMode } from '../components/button/button';
+import IconLink from "../components/icon-link/IconLink";
 import Icon from "../components/icon/icon";
 import '../styles/global.scss';
 import './index.scss';
@@ -22,25 +23,85 @@ const IndexPage = () => {
       </div>
 
       <section>
-        <h2>Music</h2>
-        <ul>
-          <li><a target="_blank" href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ">Spotify</a></li>
-          <li><a target="_blank" href="https://danbednarczyk.bandcamp.com/">Bandcamp</a></li>
-          <li><a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">Apple Music</a></li>
-        </ul>
-        <h2>Art & Photography</h2>
-        <ul>
-          <li><a target="_blank" href="https://www.instagram.com/pineapple_dan_creates/">Instagram</a></li>
-        </ul>
-        <h2>Software</h2>
-        <ul>
-          <li><a target="_blank" href="https://github.com/dan9418/">GitHub</a></li>
-          <li><a target="_blank" href="https://www.play-what.com/">Play What? [BETA]</a></li>
-        </ul>
-        <h2>Contact</h2>
-        <ul>
-          <li><a target="_blank" href="https://www.linkedin.com/in/danielbednarczyk/">LinkedIn</a></li>
-        </ul>
+        <h2 className="caption">
+          Find me online as @pineapple_dan:
+        </h2>
+        <div>
+          <h2>Music</h2>
+          <ul>
+            <li>
+              <IconLink
+                href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ"
+                text="Spotify"
+                iconId="spotify"
+              />
+            </li>
+            <li>
+              <IconLink
+                href="https://danbednarczyk.bandcamp.com/"
+                text="Bandcamp"
+                iconId="bandcamp"
+              />
+            </li>
+            <li>
+              <IconLink
+                href="https://music.apple.com/us/artist/pineapple-dan/1590781822"
+                text="Apple Music"
+                iconId="music"
+              />
+            </li>
+            <li>
+              <IconLink
+                href="https://weeklybeats.com.com/pineapple_dan/"
+                text="Weekly Beats"
+                iconId="music"
+              />
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Art</h2>
+          <ul>
+            <li>
+              <IconLink
+                href="https://www.instagram.com/pineapple_dan_creates/"
+                text="Instagram"
+                iconId="instagram"
+              />
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Software</h2>
+          <ul>
+            <li>
+              <IconLink
+                href="https://github.com/dan9418/"
+                text="GitHub"
+                iconId="gitHub"
+              />
+            </li>
+            <li>
+              <IconLink
+                href="https://www.play-what.com/"
+                text="Play What? [BETA]"
+                iconId="music"
+              />
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li>
+              <IconLink
+                href="https://www.linkedin.com/in/danielbednarczyk/"
+                text="LinkedIn"
+                iconId="linkedin"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   )

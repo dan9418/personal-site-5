@@ -17,22 +17,9 @@ const Header: React.FC<any> = ({ pageName }) => {
                     </div>
                 </Link>
 
-                {false && <div className="right">
+                <div className="right">
                     <IconList />
-                    <div className="divider" />
-                    <ul className="link-list">
-                        <li>
-                            <Button to="/resume" isActive={pageName === 'resume'} mode={ButtonMode.White}>
-                                Resume
-                            </Button>
-                        </li>
-                        <li>
-                            <Button to="/portfolio" isActive={pageName === 'portfolio'} mode={ButtonMode.White}>
-                                Portfolio
-                            </Button>
-                        </li>
-                    </ul>
-                </div>}
+                </div>
             </div>
         </nav>
     );

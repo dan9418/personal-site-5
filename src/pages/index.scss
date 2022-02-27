@@ -12,6 +12,7 @@
   }
 
   .intro {
+    max-width: 768px;
     display: grid;
 
     grid-template-columns: 100%;
@@ -29,7 +30,6 @@
     }
 
     p {
-      max-width: 512px;
       font-size: 120%;
       padding: 16px;
     }
@@ -69,5 +69,24 @@
     padding: 0 16px;
     margin-top: 20px;
     border-top: 1px solid #ccc;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .caption {
+    font-weight: normal;
+    //letter-spacing: 1px;
+    color: #555;
+    font-style: italic;
+    font-size: 100%;
+    text-align: center;
+    grid-column: 1 / span 4;
+    margin: 24px 0 12px;
+  }
+
+  h2 {
+    margin: 0;
   }
 }
