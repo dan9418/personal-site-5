@@ -4,7 +4,7 @@ import "./icon.scss";
 
 const Icon: React.FC<any> = ({ id }) => {
     return (
-        ICON[id]
+        ICON[id] || null
     );
 }
 

@@ -78,7 +78,7 @@ const IndexPage = () => {
               <IconLink
                 href="https://github.com/dan9418/"
                 text="GitHub"
-                iconId="gitHub"
+                iconId="github"
               />
             </li>
             <li>
