@@ -2,6 +2,7 @@ import React from "react";
 import headshot from "../assets/headshot.jpg";
 import Button, { ButtonMode } from '../components/button';
 import IconList from "../components/icon-list/iconList";
+import Icon from "../components/icon/icon";
 import '../styles/global.scss';
 import './index.scss';
 
@@ -13,15 +14,14 @@ const IndexPage = () => {
       </h1>
       <div className="intro">
         <img src={headshot} alt="Dan Bednarczyk Photo" />
-        <p>
-          I'm a web developer and eclectic hobbyist based in Sacramento, CA. I am passionate about music, art, plants, travel, fitness, and community development.
-        </p>
+        <div className="align">
+          <p>
+            I'm a web developer and eclectic hobbyist based in Sacramento, CA and Pittsburgh, PA. I am passionate about music, art, plants, travel, fitness, and community development.
+          </p>
+          <Button to="/resume" mode={ButtonMode.Link}>Professional Resume <Icon id="navRight" /></Button>
+        </div>
       </div>
 
-      <div className="buttons">
-        <Button to="/resume" mode={ButtonMode.Link}>Professional Resume</Button>
-        <Button to="/portfolio" mode={ButtonMode.Link}>Creative Portfolio</Button>
-      </div>
       <IconList />
     </div>
   )
