@@ -6,7 +6,7 @@ import "./page.scss";
 const Page: React.FC<any> = ({ pageName, pageTitle, isHeaderVisible, children }) => {
     return (
         <>
-            <title>{`Dan Bednarczyk - ${pageTitle}`}</title>
+            <title>{`Dan Bednarczyk | ${pageTitle}`}</title>
             <main className={`page ${pageName}`}>
                 {isHeaderVisible && <>
                     <Header pageName={pageName} />

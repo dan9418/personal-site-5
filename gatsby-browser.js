@@ -12,18 +12,13 @@ import Page from "./src/components/page/page";
 const PAGE_CONFIG = {
     '/': {
         isHeaderVisible: false,
-        pageTitle: 'Home',
+        pageTitle: '@pineapple_dan',
         pageName: 'index'
     },
     '/resume/': {
         isHeaderVisible: true,
         pageTitle: 'Resume',
         pageName: 'resume'
-    },
-    '/portfolio/': {
-        isHeaderVisible: true,
-        pageTitle: 'Portfolio',
-        pageName: 'portfolio'
     }
 }
 

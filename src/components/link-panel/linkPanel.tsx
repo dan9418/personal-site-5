@@ -34,7 +34,7 @@ const LinkPanel = () => {
                     </li>
                     <li>
                         <IconLink
-                            href="https://weeklybeats.com.com/pineapple_dan/"
+                            href="https://weeklybeats.com/pineapple_dan"
                             text="Weekly Beats"
                             iconId="music"
                         />
