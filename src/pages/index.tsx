@@ -3,7 +3,6 @@ import headshot from "../assets/headshot.jpg";
 import Button, { ButtonMode } from '../components/button/button';
 import Icon from "../components/icon/icon";
 import LinkPanel from "../components/link-panel/linkPanel";
-import '../styles/global.scss';
 import './index.scss';
 
 const IndexPage = () => {
