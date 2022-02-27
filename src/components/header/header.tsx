@@ -17,7 +17,7 @@ const Header: React.FC<any> = ({ pageName }) => {
                     </div>
                 </Link>
 
-                <div className="right">
+                {false && <div className="right">
                     <IconList />
                     <div className="divider" />
                     <ul className="link-list">
@@ -32,7 +32,7 @@ const Header: React.FC<any> = ({ pageName }) => {
                             </Button>
                         </li>
                     </ul>
-                </div>
+                </div>}
             </div>
         </nav>
     );
