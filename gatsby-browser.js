@@ -1,5 +1,7 @@
 import React from "react";
 import Page from "./src/components/page/page";
+import './src/pages/index.scss';
+import './src/pages/resume.scss';
 import './src/styles/global.scss';
 
 /*export const wrapRootElement = ({ element, ...props }) => {
