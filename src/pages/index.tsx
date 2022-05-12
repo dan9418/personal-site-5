@@ -16,7 +16,7 @@ const IndexPage = () => {
         <div className="align">
 
           <p>
-            I'm a web developer and eclectic hobbyist based in Sacramento, CA and Pittsburgh, PA. I am passionate about music, art, plants, travel, fitness, and community development.
+            I'm a web developer and eclectic hobbyist currently based in Sacramento, CA and relocating to Pittsburgh, PA. I am passionate about music, art, plants, curiosity, and community.
           </p>
           <Button to="/resume" mode={ButtonMode.Link}>
             Professional Resume

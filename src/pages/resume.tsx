@@ -155,7 +155,8 @@ const ResumePage = () => {
                 <h2>Projects</h2>
 
                 <ul>
-                    <li>Creator of <b>Play What</b> (in alpha), a website and open source framework for exploring music theory concepts</li>
+                    <li>Creator of <b>Play What</b> (in beta), an educational website and open source framework for exploring music theory concepts</li>
+                    <li>Volunteer at <a href='https://musiclandria.com/' target='_blank' rel='noopener noreferrer'>The Library of Musiclandria</a>, a nonprofit music instrument lending library and community space</li>
                     <li>Developed an <a href='https://github.com/dan9418/ARDashboard/' target='_blank' rel='noopener noreferrer'>augmented reality dashboard</a> mobile app to recognize and communicate with electrical switchgear (senior design project)</li>
                     <li>Developed an Android app for boolean algebra calculations</li>
                     <li>Assisted in design and construction of several tech-supplemented hydroponic gardening systems</li>

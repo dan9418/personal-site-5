@@ -15,7 +15,7 @@ import './src/styles/global.scss';
 const PAGE_CONFIG = {
     '/': {
         isHeaderVisible: false,
-        pageTitle: '@pineapple_dan',
+        pageTitle: 'Home',
         pageName: 'index'
     },
     '/resume/': {

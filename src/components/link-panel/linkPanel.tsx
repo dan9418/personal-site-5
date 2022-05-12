@@ -5,9 +5,6 @@ import './linkPanel.scss';
 const LinkPanel = () => {
     return (
         <section className="link-panel">
-            <h2>
-                Find me online as <span><b>@pineapple_dan</b> and <b>@dan9418</b></span>
-            </h2>
             <div>
                 <h3>Music</h3>
                 <ul>
