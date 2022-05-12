@@ -24,7 +24,7 @@ const LinkPanel = () => {
                     </li>
                     <li>
                         <IconLink
-                            href="https://music.apple.com/us/artist/pineapple-dan/1590781822"
+                            href="https://music.apple.com/us/artist/dan-bednarczyk/1590781822"
                             text="Apple Music"
                             iconId="music"
                         />

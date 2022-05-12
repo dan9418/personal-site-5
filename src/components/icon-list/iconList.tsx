@@ -15,11 +15,11 @@ const IconList: React.FC<any> = ({ pageName }) => {
                     <Icon id="spotify" />
                 </a>
             </li>
-            {/*<li>
-                <a target="_blank" href="https://music.apple.com/us/artist/pineapple-dan/1590781822">
-                    <Icon id="apple" />
+            <li>
+                <a target="_blank" href="https://music.apple.com/us/artist/dan-bednarczyk/1590781822">
+                    <Icon id="music" />
                 </a>
-            </li>*/}
+            </li>
             <li>
                 <a target="_blank" href="https://danbednarczyk.bandcamp.com/">
                     <Icon id="bandcamp" />

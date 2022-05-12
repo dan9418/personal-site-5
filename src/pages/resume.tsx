@@ -63,6 +63,8 @@ const ResumePage = () => {
                         <ul>
                             <li>SEO</li>
                             <li>Fastly</li>
+                            <li>Figma</li>
+                            <li>Photoshop</li>
                             <li>REST / HTTP</li>
                             <li>JSON / XML</li>
                             <li>npm / yarn</li>
