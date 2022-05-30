@@ -280,6 +280,48 @@ const PortfolioPage = () => {
                 <p>Artwork for various musical projects</p>
                 <div className="gallery">
                     <StaticImage
+                        src='../../static/albums/born-strangers.jpg'
+                        alt='Born Stangers'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/albums/fortune.jpg'
+                        alt='Fortune'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/albums/its-real.jpg'
+                        alt="It's Real"
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/albums/love-letters.jpg'
+                        alt='Love Letters of the 21st Century'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/albums/paradise.jpg'
+                        alt='Paradise'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/albums/the-third-rock.jpg'
+                        alt='The View From The Third Rock From The Sun'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
                         src='../../static/albums/silent_city.jpg'
                         alt='Silent City'
                         placeholder="blurred"
@@ -435,7 +477,7 @@ const PortfolioPage = () => {
             </div>
             <div className="category">
                 <h2>Tattoos</h2>
-                <p>Some tattoos I designed</p>
+                <p>I have designed all of my own tattoos</p>
                 <div className="gallery">
                     <StaticImage
                         src='../../static/tattoos/bike.png'
@@ -465,11 +507,25 @@ const PortfolioPage = () => {
 
                         height={256}
                     />
+                    <StaticImage
+                        src='../../static/tattoos/412.jpg'
+                        alt='412'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/tattoos/pineapple.jpg'
+                        alt='Pineapple'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
                 </div>
             </div>
             <div className="category">
                 <h2>Just For Fun</h2>
-                <p>I am a goofball</p>
+                <p>I am a goofball, and I was REALLY a goofball in high school</p>
                 <div className="gallery">
                     <StaticImage
                         src='../../static/personal/angel_demon.jpg'

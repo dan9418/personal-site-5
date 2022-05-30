@@ -1,6 +1,16 @@
 .page.portfolio {
     padding: 64px 16px;
 
+    & > p {
+        background-color: white;
+        color: red;
+        padding: 8px;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid red;
+    }
+
     .gallery {
         display: flex;
         align-items: center;
