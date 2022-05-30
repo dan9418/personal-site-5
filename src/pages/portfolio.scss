@@ -4,8 +4,12 @@
     .gallery {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         gap: 16px;
         flex-wrap: wrap;
+
+        .gatsby-image-wrapper {
+            max-width: 256px;
+        }
     }
 }

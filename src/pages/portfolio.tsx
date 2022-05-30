@@ -84,7 +84,7 @@ const PORTFOLIO_CONFIG = [
     {
         name: 'Snapchat Filters',
         description: 'Some Snapchat geofilters I designed in college',
-        images: [
+        images: [ // 4
             {
                 name: 'Chesterfield Street',
                 year: 2015,
@@ -114,7 +114,7 @@ const PORTFOLIO_CONFIG = [
     {
         name: 'Just For Fun',
         description: 'Some fun pieces indulging my goofy sense of humor',
-        images: [
+        images: [ //14
             {
                 name: 'Angels & Demons',
                 year: 2011,
@@ -204,7 +204,7 @@ const PORTFOLIO_CONFIG = [
     {
         name: 'T-Shirts',
         description: 'Some shirts I designed in college',
-        images: [
+        images: [ // 5
             {
                 name: 'E-Week: Harry Potter',
                 year: 2014,
@@ -240,7 +240,7 @@ const PORTFOLIO_CONFIG = [
     {
         name: 'Tattoos',
         description: 'Some tattoos I designed',
-        images: [
+        images: [ // 4
             {
                 name: 'Nature Arm Band',
                 year: 2017,
@@ -272,100 +272,199 @@ const PORTFOLIO_CONFIG = [
 const PortfolioPage = () => {
     return (
         <>
-            <div>
+            <div className="category">
                 <h2>Album Covers</h2>
-                <p>text</p>
+                <p>Artwork for various musical projects</p>
                 <div className="gallery">
                     <StaticImage
-                        src='../assets/albums/silent_city.jpg'
+                        src='../../static/albums/silent_city.jpg'
                         alt='Silent City'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/silent_city_back.jpg'
                         alt='Silent City (Back)'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/need_not.jpg'
                         alt='Need Not'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/peanut_butter_jam.jpg'
                         alt='Peanut Butter Jam'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/songs_and_how_not_to_write_them.jpg'
                         alt='Songs! And How NOT To Write Them!'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/songs_and_how_not_to_write_them_back.jpg'
                         alt='Songs! And How NOT To Write Them! (Back)'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/human_architecture.jpg'
                         alt='Human Architecture'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/mac_demarco_covers.jpg'
                         alt='Mac DeMarco Covers (parody)'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/out_of_reach.jpg'
                         alt='Out of Reach'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/string.jpg'
                         alt='Indigo Zoo - String'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/of_dreams.jpg'
                         alt='Indigo Zoo - Of Dreams'
                         placeholder="blurred"
-                        layout="fixed"
-
+                        
                         height={256}
                     />
                 </div>
             </div>
+            <div className="category">
+                <h2>Snapchat Filers</h2>
+                <p>Some Snapchat geofilters I designed in college</p>
+                <div className="gallery">
+                    <StaticImage
+                        src='../../static/filters/chesterfield.png'
+                        alt='Chesterfield'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/filters/wpts.png'
+                        alt='WPTS Radio'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/filters/ward.png'
+                        alt='Ward St'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/filters/pitt.png'
+                        alt='Pitt Residence Halls'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                </div>
+            </div>
+            <div className="category">
+                <h2>T-Shirts</h2>
+                <p>Some shirts I designed in college</p>
+                <div className="gallery">
+                    <StaticImage
+                        src='../../static/shirts/freshmen.jpg'
+                        alt='Freshmen'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/shirts/harry_potter.jpg'
+                        alt='Harry Potter'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/shirts/hunger_games.jpg'
+                        alt='Hunger Games'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/shirts/panther_pitt.jpg'
+                        alt='Panther Pitt'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/shirts/pixar.jpg'
+                        alt='Pixar'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                </div>
+            </div>
+            <div className="category">
+                <h2>Tattoos</h2>
+                <p>Some tattoos I designed</p>
+                <div className="gallery">
+                    <StaticImage
+                        src='../../static/tattoos/bike.png'
+                        alt='Bike'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/tattoos/binary_cross.png'
+                        alt='Bike'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/tattoos/lost_is_found.jpg'
+                        alt='Bike'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/tattoos/harmonic_series.png'
+                        alt='Bike'
+                        placeholder="blurred"
+                        
+                        height={256}
+                    />
+                </div>
+            </div>
+
         </>
     )
 }
