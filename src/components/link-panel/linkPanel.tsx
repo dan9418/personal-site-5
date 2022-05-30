@@ -48,6 +48,13 @@ const LinkPanel = () => {
                             iconId="instagram"
                         />
                     </li>
+                    <li>
+                        <IconLink
+                            to="/portfolio"
+                            text="Portfolio"
+                            iconId="art"
+                        />
+                    </li>
                 </ul>
             </div>
             <div>

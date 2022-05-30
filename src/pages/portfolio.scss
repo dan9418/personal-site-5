@@ -1,0 +1,11 @@
+.page.portfolio {
+    padding: 64px 16px;
+
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+}

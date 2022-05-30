@@ -22,6 +22,11 @@ const PAGE_CONFIG = {
         isHeaderVisible: true,
         pageTitle: 'Resume',
         pageName: 'resume'
+    },
+    '/portfolio/': {
+        isHeaderVisible: true,
+        pageTitle: 'Art Portfolio',
+        pageName: 'portfolio'
     }
 }
 
