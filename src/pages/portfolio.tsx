@@ -272,6 +272,9 @@ const PORTFOLIO_CONFIG = [
 const PortfolioPage = () => {
     return (
         <>
+            <p>
+                DISCLAIMER: This page is still under construction! I am planning to add more content and higher resolution images.
+            </p>
             <div className="category">
                 <h2>Album Covers</h2>
                 <p>Artwork for various musical projects</p>
@@ -280,77 +283,77 @@ const PortfolioPage = () => {
                         src='../../static/albums/silent_city.jpg'
                         alt='Silent City'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/silent_city_back.jpg'
                         alt='Silent City (Back)'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/need_not.jpg'
                         alt='Need Not'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/peanut_butter_jam.jpg'
                         alt='Peanut Butter Jam'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/songs_and_how_not_to_write_them.jpg'
                         alt='Songs! And How NOT To Write Them!'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/songs_and_how_not_to_write_them_back.jpg'
                         alt='Songs! And How NOT To Write Them! (Back)'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/human_architecture.jpg'
                         alt='Human Architecture'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/mac_demarco_covers.jpg'
                         alt='Mac DeMarco Covers (parody)'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/out_of_reach.jpg'
                         alt='Out of Reach'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/string.jpg'
                         alt='Indigo Zoo - String'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/albums/of_dreams.jpg'
                         alt='Indigo Zoo - Of Dreams'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                 </div>
@@ -363,28 +366,28 @@ const PortfolioPage = () => {
                         src='../../static/filters/chesterfield.png'
                         alt='Chesterfield'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/filters/wpts.png'
                         alt='WPTS Radio'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/filters/ward.png'
                         alt='Ward St'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
-                        src='../../static/filters/pitt.png'
+                        src='../../static/filters/pitt.jpg'
                         alt='Pitt Residence Halls'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                 </div>
@@ -397,35 +400,35 @@ const PortfolioPage = () => {
                         src='../../static/shirts/freshmen.jpg'
                         alt='Freshmen'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/shirts/harry_potter.jpg'
                         alt='Harry Potter'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/shirts/hunger_games.jpg'
                         alt='Hunger Games'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/shirts/panther_pitt.jpg'
                         alt='Panther Pitt'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/shirts/pixar.jpg'
                         alt='Pixar'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                 </div>
@@ -438,33 +441,140 @@ const PortfolioPage = () => {
                         src='../../static/tattoos/bike.png'
                         alt='Bike'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/tattoos/binary_cross.png'
                         alt='Bike'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/tattoos/lost_is_found.jpg'
                         alt='Bike'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                     <StaticImage
                         src='../../static/tattoos/harmonic_series.png'
                         alt='Bike'
                         placeholder="blurred"
-                        
+
                         height={256}
                     />
                 </div>
             </div>
+            <div className="category">
+                <h2>Just For Fun</h2>
+                <p>I am a goofball</p>
+                <div className="gallery">
+                    <StaticImage
+                        src='../../static/personal/angel_demon.jpg'
+                        alt='Angels and Demons'
+                        placeholder="blurred"
 
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/tv.jpg'
+                        alt='Stuck in TV'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/ceo.jpg'
+                        alt='CEO'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/missing_fridge.jpg'
+                        alt='Missing Fridge'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/chess.jpg'
+                        alt='Chess'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+
+                    <StaticImage
+                        src='../../static/personal/hostage.jpg'
+                        alt='Hostage'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/jimmy_fallon.jpg'
+                        alt='Jimmy Fallon'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/spray_paint.jpg'
+                        alt='Spray Paint'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/minime.jpg'
+                        alt='Mini Me'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+
+                    <StaticImage
+                        src='../../static/personal/multitasking.jpg'
+                        alt='Multitasking'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/simpsons.jpg'
+                        alt='Simpsons'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/skydiving.jpg'
+                        alt='Skydiving'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+
+                    <StaticImage
+                        src='../../static/personal/dollar.jpg'
+                        alt='Dolla Dolla Bill Yall'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+                    <StaticImage
+                        src='../../static/personal/godfather.jpg'
+                        alt='The Godfather Parody'
+                        placeholder="blurred"
+
+                        height={256}
+                    />
+
+                </div>
+            </div>
         </>
     )
 }
