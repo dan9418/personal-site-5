@@ -1,7 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import headshot from "../../assets/headshot.jpg";
-import Button, { ButtonMode } from "../button";
+import headshot from "../../../static/headshot.jpg";
 import IconList from "../icon-list/iconList";
 import "./header.scss";
 

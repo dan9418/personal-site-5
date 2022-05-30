@@ -1,5 +1,5 @@
 import React from "react";
-import headshot from "../assets/headshot.jpg";
+import headshot from "../../static/headshot.jpg";
 import Button, { ButtonMode } from '../components/button/button';
 import Icon from "../components/icon/icon";
 import LinkPanel from "../components/link-panel/linkPanel";
