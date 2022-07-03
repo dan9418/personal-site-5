@@ -43,7 +43,7 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://www.instagram.com/pineapple_dan_creates/"
+                            href="https://www.instagram.com/dan.bednarczyk/"
                             text="Instagram"
                             iconId="instagram"
                         />

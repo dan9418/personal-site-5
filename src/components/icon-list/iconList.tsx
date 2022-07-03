@@ -6,7 +6,7 @@ const IconList: React.FC<any> = ({ pageName }) => {
     return (
         <ul className="icon-list">
             <li>
-                <a target="_blank" href="https://www.instagram.com/pineapple_dan_creates/">
+                <a target="_blank" href="https://www.instagram.com/dan.bednarczyk/">
                     <Icon id="instagram" />
                 </a>
             </li>
