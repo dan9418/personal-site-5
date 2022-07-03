@@ -1,4 +1,4 @@
-@use "../styles/theme"as theme;
+@use "../styles/theme" as theme;
 
 .page.index {
 
@@ -25,7 +25,7 @@
 
     gap: 16px;
 
-    img {
+    img.headshot {
       height: 128px;
       width: 128px;
       border-radius: 100%;
@@ -54,9 +54,11 @@
 
       &:hover {
         color: white;
+
         svg {
           fill: white;
         }
+
         background-color: theme.$link;
       }
 
@@ -74,4 +76,23 @@
       }
     }
   }
+
+  h2 {
+    margin-top: 64px;
+  }
+
+  section.shows {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+    img.show_poster {
+      width: 100%;
+      max-width: 512px;
+    }
+
+  }
+
 }
