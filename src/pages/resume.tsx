@@ -80,16 +80,17 @@ const ResumePage = () => {
 
                 <ResumeSubheader
                     company='CBS Sports Digital'
-                    position='Frontend Engineer'
+                    position='Senior Software Engineer'
                     date='Dec 2019 - Present'
-                    location='El Dorado Hills, CA'
+                    location='El Dorado Hills, CA (Remote)'
                 />
 
                 <ul>
-                    <li>Serving as the primary frontend engineer in effort to modularize and modernize the <a href='https://www.maxpreps.com/' target='_blank'>MaxPreps.com</a> architecture</li>
+                    <li>Serving as the primary frontend engineer in effort to modularize and modernize the <a href='https://www.maxpreps.com/' target='_blank'>MaxPreps</a> architecture</li>
                     <li>Implementing new React pages utilizing Next.js for server-side rendering and SEO optimization</li>
                     <li>Building out robust, responsive component library using styled-components</li>
                     <li>Architecting patterns for ad, tracking, and edge-caching implementations</li>
+                    <li>Managing complex, multi-layer routing requirements and URL-rewriting patterns</li>
                     <li>Working directly with stakeholders across product, design, and engineering in a highly collaborative Agile environment</li>
                 </ul>
 
@@ -163,7 +164,7 @@ const ResumePage = () => {
                     <li>Developed an Android app for boolean algebra calculations</li>
                     <li>Assisted in design and construction of several tech-supplemented hydroponic gardening systems</li>
                     <li>Studied audio engineering in the University of Pittsburgh Music Engineering Laboratory</li>
-                    <li>Developed this portfolio site in React and TypeScript</li>
+                    <li>Developed this portfolio site with Gatsby, React, TypeScript, and SCSS</li>
                 </ul>
 
             </section>
