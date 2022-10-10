@@ -81,18 +81,4 @@
     margin-top: 64px;
   }
 
-  section.shows {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-
-    img.show_poster {
-      width: 100%;
-      max-width: 512px;
-    }
-
-  }
-
 }
