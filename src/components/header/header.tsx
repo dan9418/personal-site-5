@@ -12,7 +12,7 @@ const Header: React.FC<any> = ({ pageName }) => {
                     <img src={headshot} alt="Dan Bednarczyk Photo" />
                     <div className="details">
                         <div className="name">Dan Bednarczyk</div>
-                        <div className="city">Sacramento, CA</div>
+                        <div className="city">Pittsburgh, PA</div>
                     </div>
                 </Link>
 

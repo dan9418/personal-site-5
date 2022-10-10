@@ -15,7 +15,7 @@ const IndexPage = () => {
         <img className="headshot" src={headshot} alt="Dan Bednarczyk Photo" />
         <div className="align">
           <p>
-            I'm a web developer and multimedia artist currently based in Sacramento, CA and soon relocating to Pittsburgh, PA. I am passionate about music, art, plants, travel, and community.
+            I'm a web developer and multimedia artist based in Pittsburgh, PA. I am passionate about music, art, plants, travel, and community.
           </p>
           <Button to="/resume" mode={ButtonMode.Link}>
             Professional Resume
