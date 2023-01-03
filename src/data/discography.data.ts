@@ -1,4 +1,4 @@
-enum IconId {
+export enum IconId {
   Bandcamp,
   Instagram,
   Facebook,
@@ -9,18 +9,18 @@ enum IconId {
   Lyrics,
 }
 
-interface ILink {
+export interface ILink {
   //text: string;
   href: string;
-  id?: IconId;
+  id: IconId;
 }
 
-interface ITrack {
+export interface ITrack {
   name: string;
   writer?: string;
 }
 
-interface IAlbum {
+export interface IAlbum {
   name: string;
   releaseDate: string;
   remasterDate?: string;
@@ -29,15 +29,15 @@ interface IAlbum {
   tracks: ITrack[];
 }
 
-interface IArtist {
+export interface IArtist {
   name: string;
   links: ILink[];
   albums: IAlbum[];
 }
 
-const MUSIC_CONFIG: IArtist[] = [
+const DISCOGRAPHY_DATA: IArtist[] = [
   {
-    name: "Atlas Euphoria",
+    name: "Dan Bednarczyk",
     links: [
       {
         id: IconId.Bandcamp,
@@ -281,4 +281,4 @@ const MUSIC_CONFIG: IArtist[] = [
   },
 ];
 
-export default MUSIC_CONFIG;
+export default DISCOGRAPHY_DATA;
