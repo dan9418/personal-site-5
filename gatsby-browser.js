@@ -27,6 +27,11 @@ const PAGE_CONFIG = {
         isHeaderVisible: true,
         pageTitle: 'Art Portfolio',
         pageName: 'portfolio'
+    },
+    '/discography/': {
+        isHeaderVisible: false,
+        pageTitle: 'Music Discography',
+        pageName: 'discography'
     }
 }
 
