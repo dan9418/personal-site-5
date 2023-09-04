@@ -17,7 +17,7 @@ const LinkPanel = () => {
                     </li>
                     <li>
                         <IconLink
-                            href="https://danbednarczyk.bandcamp.com/"
+                            href="https://strangefrontiers.bandcamp.com/"
                             text="Bandcamp"
                             iconId="bandcamp"
                         />
@@ -43,7 +43,7 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://www.instagram.com/dan.bednarczyk/"
+                            href="https://www.instagram.com/strangefrontiers/"
                             text="Instagram"
                             iconId="instagram"
                         />

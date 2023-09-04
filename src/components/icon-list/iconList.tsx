@@ -6,7 +6,7 @@ const IconList: React.FC<any> = ({ pageName }) => {
     return (
         <ul className="icon-list">
             <li>
-                <a target="_blank" href="https://www.instagram.com/dan.bednarczyk/">
+                <a target="_blank" href="https://www.instagram.com/strangefrontiers/">
                     <Icon id="instagram" />
                 </a>
             </li>
@@ -21,7 +21,7 @@ const IconList: React.FC<any> = ({ pageName }) => {
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://danbednarczyk.bandcamp.com/">
+                <a target="_blank" href="https://strangefrontiers.bandcamp.com/">
                     <Icon id="bandcamp" />
                 </a>
             </li>
