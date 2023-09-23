@@ -1,4 +1,5 @@
 import React from "react";
+import { LINK_APPLE_MUSIC, LINK_BANDCAMP, LINK_GITHUB, LINK_INSTAGRAM, LINK_LINKED_IN, LINK_SPOTIFY } from "../../data/links.data";
 import Icon from "../icon/icon";
 import "./iconList.scss";
 
@@ -6,32 +7,32 @@ const IconList: React.FC<any> = ({ pageName }) => {
     return (
         <ul className="icon-list">
             <li>
-                <a target="_blank" href="https://www.instagram.com/strangefrontiers/">
+                <a target="_blank" href={LINK_INSTAGRAM}>
                     <Icon id="instagram" />
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ">
+                <a target="_blank" href={LINK_SPOTIFY}>
                     <Icon id="spotify" />
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://music.apple.com/us/artist/dan-bednarczyk/1590781822">
+                <a target="_blank" href={LINK_APPLE_MUSIC}>
                     <Icon id="music" />
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://strangefrontiers.bandcamp.com/">
+                <a target="_blank" href={LINK_BANDCAMP}>
                     <Icon id="bandcamp" />
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://github.com/dan9418/">
+                <a target="_blank" href={LINK_GITHUB}>
                     <Icon id="github" />
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://www.linkedin.com/in/danielbednarczyk/">
+                <a target="_blank" href={LINK_LINKED_IN}>
                     <Icon id="linkedin" />
                 </a>
             </li>

@@ -1,4 +1,5 @@
 import React from "react";
+import { LINK_APPLE_MUSIC, LINK_BANDCAMP, LINK_GITHUB, LINK_INSTAGRAM, LINK_LINKED_IN, LINK_PLAY_WHAT, LINK_SPOTIFY, LINK_WEEKLY_BEATS } from "../../data/links.data";
 import IconLink from "../icon-link/IconLink";
 import './linkPanel.scss';
 
@@ -10,28 +11,28 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://open.spotify.com/artist/37bMMmv82uI3xhb0S8hL9V?si=HTEihmXtSt-aBan4obvTJQ"
+                            href={LINK_SPOTIFY}
                             text="Spotify"
                             iconId="spotify"
                         />
                     </li>
                     <li>
                         <IconLink
-                            href="https://strangefrontiers.bandcamp.com/"
+                            href={LINK_BANDCAMP}
                             text="Bandcamp"
                             iconId="bandcamp"
                         />
                     </li>
                     <li>
                         <IconLink
-                            href="https://music.apple.com/us/artist/dan-bednarczyk/1590781822"
+                            href={LINK_APPLE_MUSIC}
                             text="Apple Music"
                             iconId="music"
                         />
                     </li>
                     <li>
                         <IconLink
-                            href="https://weeklybeats.com/pineapple_dan"
+                            href={LINK_WEEKLY_BEATS}
                             text="Weekly Beats"
                             iconId="music"
                         />
@@ -43,7 +44,7 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://www.instagram.com/strangefrontiers/"
+                            href={LINK_INSTAGRAM}
                             text="Instagram"
                             iconId="instagram"
                         />
@@ -62,7 +63,7 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://github.com/dan9418/"
+                            href={LINK_GITHUB}
                             text="GitHub"
                             iconId="github"
                         />
@@ -76,7 +77,7 @@ const LinkPanel = () => {
                     </li>
                     <li>
                         <IconLink
-                            href="https://www.play-what.com/"
+                            href={LINK_PLAY_WHAT}
                             text="Play What?"
                             iconId="music"
                             isBeta={true}
@@ -89,7 +90,7 @@ const LinkPanel = () => {
                 <ul>
                     <li>
                         <IconLink
-                            href="https://www.linkedin.com/in/danielbednarczyk/"
+                            href={LINK_LINKED_IN}
                             text="LinkedIn"
                             iconId="linkedin"
                         />
